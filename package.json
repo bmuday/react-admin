@@ -1,0 +1,31 @@
+{
+  "name": "react-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000",
+    "client": "npm start --prefix client",
+    "dev": "concurrently 'npm run server' 'npm run client'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmuday/react-admin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmuday/react-admin/issues"
+  },
+  "homepage": "https://github.com/bmuday/react-admin#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "json-server": "^0.17.0",
+    "ra-data-simple-rest": "^4.0.1",
+    "react-admin": "^4.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0"
+  }
+}
